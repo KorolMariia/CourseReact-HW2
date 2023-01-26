@@ -1,0 +1,21 @@
+.PostItem_modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 20px;
+  position: absolute;
+  top: 150px;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  &-input {
+    padding: 15px;
+    width: 230px;
+    height: 20px;
+    border: 3px solid #696969;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+  }
+}
